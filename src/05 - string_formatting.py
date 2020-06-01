@@ -9,7 +9,7 @@ String Formatting
 
 # This prints out "Hello, John!"
 # name = "John"
-# print("Hello, %s!" % name)
+# print("Hello, %s!" % name) # achieves similar result to template literal string in JS, albeit less attractively
 
 # # 2. To use two or more argument specifiers, use a tuple (parentheses)
 # # This prints out "John is 23 years old."
