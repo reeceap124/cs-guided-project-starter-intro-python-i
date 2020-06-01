@@ -5,17 +5,29 @@ Variable and Types
 # myint = 9
 # print(myint)
 
+myint = 7
+print(myint)
+
 # # 2. Floating point numbers
 # myfloat = 7.245
 # print(myfloat)
 # myfloat = float(7)
 # print(myfloat)
 
+myfloat = 7.245
+print(myfloat)
+myfloat = float(7) #forces int to be float
+print(myfloat)
+
 # # 3. Strings can use " or '
 # mystring = 'hello'
 # print(mystring)
 # mystring = "hello"
 # print(mystring)
+
+#both work fine, but tend to use double quotes
+print("Prints Hello")
+print('also prints hello')
 
 # # 4. Apostophes
 # mystring = "Don't worry about apostrophes"
@@ -58,3 +70,7 @@ Variable and Types
 # hello = "hello"
 
 # print(one + two + hello)
+
+#There is no type coercion in python as there is javascript soo...
+
+print(str(one) + str(two) + hello)
