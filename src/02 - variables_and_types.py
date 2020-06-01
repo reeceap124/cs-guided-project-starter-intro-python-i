@@ -65,9 +65,9 @@ print('also prints hello')
 
 # 8. Mixing operators with strings and numbers
 # This will not work!
-# one = 1
-# two = 2
-# hello = "hello"
+one = 1
+two = 2
+hello = "hello"
 
 # print(one + two + hello)
 
